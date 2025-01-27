@@ -1,3 +1,5 @@
+#Ch 1 - W3-Schools Review - Variables Names
+
 def main():
  #legal variable names
   myvar = "John"
