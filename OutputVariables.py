@@ -33,4 +33,7 @@ def main():
   y = "John"
   print(x, y)
 
+#Test
+  print("Hi", 1 + 2, "Bye" + " Bye" , 2) #prints 'Hi 3 Bye Bye 2'
+
 main()
