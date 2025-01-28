@@ -31,10 +31,10 @@ print("Python is " + x3)
 #Changing the global variable inside
 x4 = "awesome"
 
-def myfunc():
+def myfunc4():
   global x4
   x4 = "fantastic"
 
-myfunc()
+myfunc4()
 
 print("Python is " + x4)
