@@ -173,8 +173,6 @@ def main():
   x = y = someVar = 42
   print(x, y, someVar)
 
-  
-
   print("Ending <Specific Part> Of Code Challenge")
   print("Ending The Code Challenge")
 
