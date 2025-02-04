@@ -22,7 +22,7 @@ def main():
   except:
     print("Something else went wrong")
 
-  #Else - Can us to define a block of code to be executed if no errors were raised
+  #Else - Can use to define a block of code to be executed if no errors were raised
   try:
     print("Hello")
   except:
