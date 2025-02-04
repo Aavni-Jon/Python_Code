@@ -14,7 +14,7 @@ def main():
   except:
     print("An exception occurred")
 
-  #Many Exception
+  #Many Exceptions
   try:
     print(x)
   except NameError:
