@@ -51,7 +51,7 @@ def main():
   except:
     print("Something went wrong when opening the file")
 
-  #Raise an exception - same as throw an exception if a condition occures
+  #Raise an exception - same as throw an exception if a condition occurs
   x = -1
   if x < 0:
     raise Exception("Sorry, no numbers below zero")
