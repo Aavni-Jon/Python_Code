@@ -1,8 +1,5 @@
 #Ch 2 - Flow Control - TRY & EXCEPT
 
-
-# Python Lab - Scratch Pad
-
 def main():
   print("Starting The Code Challenge")
   # Declare Any main() Variables - (Not Global)
@@ -48,15 +45,6 @@ def main():
     print('Please enter a number')
     print(my_number, 'is NOT a number')
   print('done')
-
-
-
-  
-  
-
-
-
-
 
   print("Ending <Specific Part> Of Code Challenge")
   print("Ending The Code Challenge")
