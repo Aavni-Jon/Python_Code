@@ -23,8 +23,9 @@ def main():
   print('''A variable that the user is trying to guess and another variable for the user's guess 
   are initialized. This time we take the user's input instead of assigning them an input and 
   randomize the number that the user needs to guess. Then a conditional checks if the user guess 
-  is equivalent to the number than needs to be guessed. If it's not the same, then an appropriate 
-  message is printed. If it is, then an appropriate message is printed''')
+  is equivalent to the number than needs to be guessed. An elif checks if the guess 1 number away
+  from the random number. It will print the appropriate message. For the else, if it's not the same, 
+  then an appropriate message is printed. If it is, then an appropriate message is printed''')
 
   # (instructions) Add your code here
   #  3) Add a variable: 
