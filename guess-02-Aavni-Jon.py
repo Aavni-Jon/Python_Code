@@ -34,6 +34,7 @@ def main():
 
   # (instructions) Add your code here
   # 5) Add a hard coded user guess
+  #user_guess = 5
   user_guess = input('Enter a number:')
 
   # (instructions) Add your code here
