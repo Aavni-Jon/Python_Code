@@ -32,43 +32,33 @@ def main():
   number_2_guess = random.randint(0, 10)
 
   # (instructions) Add your code here
-  # 5) Add a hard coded user guess
+  # 4) Add a hard coded user guess
   #user_guess = 5
   user_guess = int(input('Enter a number from 0 to 10:'))
 
   # (instructions) Add your code here
-  #  6) print the type() of the user_guess to show it is an integer
-  #  7) print() the value of the user_guess variable
+  #  5) print the type() of the user_guess to show it is an integer
+  #  6) print() the value of the user_guess variable
   print(type(user_guess))
   print(user_guess)
 
-  # (instructions) Add your code here
-  #  8) Add an IF statement to check if user_guess is equal to number_2_guess
-  #  9) If they are equal, print() something like 'Good Guess, you are a Winner'
-  # 10) also print() <user_guess> is equal to <number_2_guess>
   if number_2_guess == user_guess:
     print("Good Guess, you are a Winner")
     print(user_guess, "is equal to", number_2_guess)
   
   # (instructions) Add your code here
-  # 11) Add an ELIF statement to check to see if the user_guess is close, 
+  # 7) Add an ELIF statement to check to see if the user_guess is close, 
         #specifically if it's number_2_guess +1 or -1
-  # 12) If it is, print out  "Close but no Cigar" and then print the value of user_guess 
+  # 8) If it is, print out  "Close but no Cigar" and then print the value of user_guess 
         #with the text "is one number away from" and then the number_2_guess 
   elif user_guess + 1 == number_2_guess or user_guess - 1 == number_2_guess:
     print("Close but no Cigar")
     print(user_guess, "is one number away from", number_2_guess)
   
-  # (instructions) Add your code here
-  # 13) Add an ELSE statement and in that block print() if they are not equal
-  # 14) print() something like 'Better Luck Next Time'
-  # 15) also print() <user_guess> is NOT equal to <number_2_guess>
   else:
     print("Better luck next time")
     print(user_guess, "is NOT equal to", number_2_guess)
 
-  # (instructions) Add your code here
-  # 14) End with a print() that says something like 'All Done!'
   print('All Done!')
   
 main()
