@@ -34,7 +34,7 @@ def main():
   # (instructions) Add your code here
   # 5) Add a hard coded user guess
   #user_guess = 5
-  user_guess = int(input('Enter a number:'))
+  user_guess = int(input('Enter a number from 0 to 10:'))
 
   # (instructions) Add your code here
   #  6) print the type() of the user_guess to show it is an integer
