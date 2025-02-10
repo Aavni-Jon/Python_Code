@@ -1,20 +1,24 @@
 #Ch 3 - Functions - Lab #4 - More Built In Functions
-'''Challenge #1
-
-Write some code that uses the following built-in functions
-Run, then Edit the code in the template example:
-      
-Using some built-in Functions
-
-abs()    - try some equation like x=(4+5)*-7
-bin()    - change a decimal number to it's Binary
-hex()    - change a decimal number to it's Hex value
-chr()    - convert a unicode value to it printable character
-round()  - Do some math, get a long floating point number and round it.  Then round it to 2 significant digits
-Pick 3 more functions and try them...
-Still have time, pick 3 more      '''
+# Functions Introduction
 
 def main():
+  print('''Functions Introduction
+  There is a big list of built-in functions here: https://www.w3schools.com/python/python_ref_functions.asp''')      
+  print('''Challenge #1
+  Write some code that uses the following built-in functions
+  Run, then Edit the code in the template example:
+  Using some built-in Functions
+      - abs()    - try some equation like x=(4+5)*-7
+      - bin()    - change a decimal number to it's binary
+      - ord()    - convert a number or character to it's unicode value
+      - chr()    - convert a unicode value to it printable character
+      - round()  - Do some math, get a long floating point number and
+                   round it.  Then round it to 2 significant digits
+      - Pick 3 more functions ant try them...
+      - Still have time, pick 3 more       ''')
+  print(''' Be shure to document your code with comments.
+  Enter Your Code Here:
+  ----------------------------------------------------''')
   #abs()
   x = (4+5)* -7
   print(abs(x))
@@ -64,5 +68,7 @@ def main():
   #bool()
   x = 20
   print(bool(x))
+  
+  print('Done with Challenge 1')
   
 main()
