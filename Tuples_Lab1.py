@@ -29,7 +29,7 @@ def sum_and_avg(t):
     return(s, a,)
 my_tuple = (2,6,42,)
 print('My Tuple =', my_tuple)
-print('my_t is of type',type(my_tuple))
+print('my_tuple is of type',type(my_tuple))
 (sum, avg) = sum_and_avg(my_tuple)
 print('Sum =', sum)
 print('Sum is of type',type(sum))
