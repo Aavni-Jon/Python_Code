@@ -42,7 +42,8 @@ def sum_and_avg(t):
   for value in range(len(t)):
     s = x + y + z
     a = s/3
-    return(s, a,)
+  return(s, a,)
+my_tuple = (2,6,42,)
 (sum, avg) = sum_and_avg(my_tuple)
 print('This is the value of the Tuple returned')
 print((sum, avg))
