@@ -63,31 +63,3 @@ def main():
   print("The even number sum of", my_num_1, "+", my_num_2, "=", sum)
 print('''----------------------------------------------------''')
 
-print('''Challenge #4
-Create a single function that takes the 2 argument numbers x,y 
-and a 3rd argument, that selects between Addition, Subtraction, 
-Multiplication, and Division, with the default being Addition. 
-Then returns the result
-Enter Code Here:
-----------------------------------------------------      ''')
-# Enter Code Here:
-def math(x,y,z) :
-  if z == "subtraction":
-    r = x - y
-  elif z == "multiply":
-    r = x*y
-  elif z == "divide":
-    r = x/y
-  else:
-    r = x+y
-  return r
-
-def main():
-  my_num_1 = 5
-  my_num_2 = 2
-  print("Enter in lower case")
-  choice = input("Do you want to add, subtract, multiply, or divide?:")
-  solution = math(my_num_1, my_num_2, choice)
-  print("The first number is", my_num_1, "and the second number is", my_num_2, 
-        "\nYour solution is", solution)
-print('''----------------------------------------------------''')
