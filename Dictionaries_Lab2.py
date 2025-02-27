@@ -26,11 +26,13 @@ while x :
   except:
     print("Key not found")
 else :
+  ''' Trying to make it search and change the value
   value = input("In this key, enter the value you want to change: ")
   change = input("Enter new value: ")
   
   for x in makey_bot[key]:
       makey_bot.update({makey_bot[value]: change})
   print(makey_bot[key])
+  '''
   print("Done")
 main()
