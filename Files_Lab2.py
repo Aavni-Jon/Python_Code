@@ -1,4 +1,4 @@
-#Python - Ch 9 - Files - Lab #2 - More File Handle
+#Ch 9 - Files - Lab #2 - More File Handle
 
 # Opening File Handles and reading data from files
 # What happends if the file does not exist?
