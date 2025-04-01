@@ -28,7 +28,9 @@ for line in fhand:
   count = count + 1 #Challenge 1
 	print(line)
 print('Line Count:', count)
-f2 = open('text-file-mail-short.txt') #Challenge 2
-print(f2) #Challenge 2
+#Challenge 2
+f2 = open('text-file-mail-short.txt')
+for line in f2:
+	print(line)
 print('''
 -------------------------------------------------''')
