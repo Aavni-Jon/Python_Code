@@ -26,21 +26,26 @@ xfile = open('text-file-mail-very-short.txt')
 
 for line in xfile:
   #1
-  if line.startswith('From:'):
+  if line.startswith("From:"):
     line=line.rstrip()
     print(line)
   #2
-  if line.startswith('To:'):
+  if line.startswith("To:"):
     line=line.rstrip()
     print(line)
   #3
-  words = line.split()
+  if line.startswith("From:"):
+    line=line.rstrip()
+    line = line.lstrip("From: ")
+    print(line)
+  '''words = line.split()
   for word in words:
     foundAt = word.find('@')
     foundPeriod = word.find('.')
     if foundAt != -1: and foundPeriod != -1:
       line=line.rstrip()
       print(word)
+  '''
   #4
   if line.startswith('Date'):
     line=line.rstrip()
