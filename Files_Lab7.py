@@ -31,19 +31,19 @@ text-file-mail-short.txt befor you try text-file-mail-long.txt
 # Add Your Code Here:
 shortfile = open('text-file-short.txt')
 for line in shortfile:
-  words = line.split()
-  for word in words:
-    foundAt = word.find('@')
-    foundPeriod = word.find('.')
-    if foundAt != -1: and foundPeriod != -1:
-      line=line.rstrip()
-      print(word)
-  longfile = open('text-file-mail-long.txt')
-  for line in longfile:
-  words = line.split()
-  for word in words:
-    foundAt = word.find('@')
-    foundPeriod = word.find('.')
-    if foundAt != -1: and foundPeriod != -1:
-      line=line.rstrip()
-      print(word)
+    words = line.split()
+    for word in words:
+        foundAt = word.find('@')
+        foundPeriod = word.find('.')
+        if foundAt != -1: and foundPeriod != -1:
+          line=line.rstrip()
+          print(word)
+longfile = open('text-file-mail-long.txt')
+for line in longfile:
+    words = line.split()
+    for word in words:
+        foundAt = word.find('@')
+        foundPeriod = word.find('.')
+        if foundAt != -1: and foundPeriod != -1:
+          line=line.rstrip()
+          print(word)
